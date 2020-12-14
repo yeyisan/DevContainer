@@ -11,4 +11,4 @@ RUN cd /build/DevContainer && go build
 
 EXPOSE 8080
 
-ENTRYPOINT ["/build/DevContainer/main"]
+ENTRYPOINT ["/build/DevContainer/main.go"]
