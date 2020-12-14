@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"net/http"
 
 	"github.com/labstack/echo"
@@ -9,7 +8,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello")
 	e := echo.New()
 
 	e.HideBanner = true
